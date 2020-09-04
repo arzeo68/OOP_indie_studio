@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="indie_studio"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bomberman">
+				<Option output="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/bomberman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINDIE_STUDIO_COMPILER_GCC"/>
+					<Add option="-DINDIE_STUDIO_PLATFORM_LINUX"/>
+					<Add directory="/home/arzeo/EPITECH/OOP_indie_studio_2019/include"/>
+					<Add directory="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake/include"/>
+					<Add directory="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 bomberman"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bomberman/fast">
+				<Option output="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/bomberman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINDIE_STUDIO_COMPILER_GCC"/>
+					<Add option="-DINDIE_STUDIO_PLATFORM_LINUX"/>
+					<Add directory="/home/arzeo/EPITECH/OOP_indie_studio_2019/include"/>
+					<Add directory="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake/include"/>
+					<Add directory="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 bomberman/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/main.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/clock/Clock.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/engine/Irrlicht.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/engine/Music.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/engine/Sound.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/engine/Tracks.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/entity/block/Block.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/entity/block/PowerUpBlock/PowerUpBlock.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/entity/bomb/Bomb.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/entity/player/Player.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/map/Map.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/map/ProceduralMap.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/Background.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/End.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/Game.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/Ladder.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/Login.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/MapPreview.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/Menu.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/Options.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/PlayerSelection.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/scenes/SceneManager.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/src/utils/Save.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake/FindIrrlicht.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/arzeo/EPITECH/OOP_indie_studio_2019/cmake/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
